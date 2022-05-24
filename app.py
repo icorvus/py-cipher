@@ -22,7 +22,9 @@ def caesar_cipher(secret, shift_factor):
 
 
 def main():
-    pass
+    print(caesar_cipher("Very secret message!!", 23))
+    # Decrypting works by providing the key as negative value
+    print(caesar_cipher("Sbov pbzobq jbppxdb!!", -23))
 
 if __name__ == "__main__":
     main()
